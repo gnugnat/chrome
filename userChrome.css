@@ -1,0 +1,126 @@
+/*
+
+     _____ _           __
+    |  ___(_)_ __ ___ / _| _____  __
+    | |_  | | '__/ _ \ |_ / _ \ \/ /
+    |  _| | | | |  __/  _| (_) >  <
+    |_|   |_|_|  \___|_|  \___/_/\_\
+     _   _ ___  ___ _ __
+    | | | / __|/ _ \ '__|
+    | |_| \__ \  __/ |
+     \__,_|___/\___|_|
+      ____ _
+     / ___| |__  _ __ ___  _ __ ___   ___
+    | |   | '_ \| '__/ _ \| '_ ` _ \ / _ \
+    | |___| | | | | | (_) | | | | | |  __/
+     \____|_| |_|_|  \___/|_| |_| |_|\___|
+      ___ ___ ___
+     / __/ __/ __|
+    | (__\__ \__ \
+     \___|___/___/
+
+ */
+
+
+/*********************************
+ *  Anti bug                     *
+ *********************************/
+/*
+ */
+/* For a disappearing right-click menu */
+#contentAreaContextMenu {
+    margin: 5px 0 0 5px !important;
+}
+
+
+/*********************************
+ *  Replace some icons           *
+ *********************************/
+/*
+ */
+/* Overflow menu - three dots */
+#navigator-toolbox #nav-bar-overflow-button {
+    list-style-image: url(overflow.png) !important;
+}
+/*
+ */
+/*  Sidebar - book  */
+#sidebar-button {
+    list-style-image: url(sidebar.png) !important;
+}
+/*
+ */
+/*  Preferences - gear  */
+#preferences-button {
+    list-style-image: url(preferences.png) !important;
+}
+/*
+ */
+/*  Firefox color - rainbow  */
+#firefoxcolor_mozilla_com-browser-action {
+    list-style-image: url(color.png) !important;
+}
+/*
+ */
+/*  GNOME Extensions - blue  */
+#chrome-gnome-shell_gnome_org-browser-action {
+    list-style-image: url(gnome.png) !important;
+}
+/*
+ */
+/*  Addons - Puzzle  */
+#add-ons-button {
+    list-style-image: url(addons.png) !important;
+}
+
+
+/*********************************
+ *  Remove the menu button       *
+ *********************************/
+/*
+ */
+#PanelUI-menu-button {
+    display: none !important;
+}
+
+
+/*********************************
+ *  Round corners of search box  *
+ *********************************/
+/*
+ */
+#urlbar, #searchbar, #identity-box {
+    border-radius: 99px !important;
+}
+
+
+/*********************************
+ *  Round Tabs                   *
+ *********************************/
+/*
+ */
+/*  Curve the background tabs at the upper left and right corners  */
+.tabbrowser-tab {
+    border-radius: 10px 10px 0px 0px / 15px 15px 0px 0px !important;
+}
+/*
+ */
+/*  Curve active tab and slightly overlap neighboring tabs  */
+.tabbrowser-tab .tab-background[selected="true"] {
+    margin-left: -1px !important;
+    margin-right: -1px !important;
+    border-radius: 10px 10px 0px 0px / 15px 15px 0px 0px !important;
+}
+/*
+ */
+/*  Shorten the tab line along the tops of tabs */
+.tab-line {
+    margin-left: 9px !important;
+    margin-right: 9px !important;
+}
+/*
+ */
+/*  Shorten the vertical lines between background tabs  */
+.tabbrowser-tab::before, .tabbrowser-tab::after {
+    margin-top: 9px !important;
+}

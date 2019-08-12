@@ -1,0 +1,12 @@
+#+STARTUP: showall
+#+TITLE: My Firefox chrome settings
+#+CREATOR: xgqt
+#+LANGUAGE: en
+* Howto
+- [[https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data?redirectlocale=en-US&redirectslug=Profiles][find your Firefox profile location]]
+- ex.: /home/user/.mozilla/firefox/0000000.Default/
+- clone the folder there
+  =git clone https://gitlab.com/xgqt/chrome=
+- the folder has to be named "[[https://www.userchrome.org/][chrome]]"
+- start Firefox
+- enjoy :)
