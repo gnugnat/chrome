@@ -75,16 +75,6 @@
 
 
 /*********************************
- *  Remove the menu button       *
- *********************************/
-/*
- */
-#PanelUI-menu-button {
-    display: none !important;
-}
-
-
-/*********************************
  *  Round corners of search box  *
  *********************************/
 /*
