@@ -72,7 +72,12 @@
 #add-ons-button {
     list-style-image: url(addons.png) !important;
 }
-
+/*
+ */
+/*  Developer - Flask  */
+#developer-button {
+    list-style-image: url(developer.png) !important;
+}
 
 /*********************************
  *  Round corners of search box  *
