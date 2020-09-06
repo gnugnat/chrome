@@ -2,7 +2,7 @@
 #+AUTHOR: XGQT
 #+LANGUAGE: en
 #+STARTUP: showall
-[[https://gitlab.com/xgqt/secret_service/pipelines][file:https://gitlab.com/xgqt/chrome/badges/master/pipeline.svg]] [[https://gitlab.com/xgqt/secret_service/commits/master.atom][file:]]https://img.shields.io/badge/feed-atom-orange.svg [[./LICENSE][file:https://img.shields.io/badge/license-ISC-blue.svg]]
+[[https://gitlab.com/xgqt/secret_service/pipelines][file:https://gitlab.com/xgqt/chrome/badges/master/pipeline.svg]] [[https://gitlab.com/xgqt/secret_service/commits/master.atom][file:https://img.shields.io/badge/feed-atom-orange.svg]] [[./LICENSE][file:https://img.shields.io/badge/license-ISC-blue.svg]]
 * Howto
 - [[https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data?redirectlocale=en-US&redirectslug=Profiles][find your Firefox profile location]]
 - ex.: /home/user/.mozilla/firefox/0000000.Default/
